@@ -1,14 +1,12 @@
 # Nexus Tasks (Vulnerable Todo App)
 
-This is a deliberately vulnerable Todo web application built for an educational demonstration of **Stored Cross-Site Scripting (XSS)**. 
+This is a Todo web application. 
 
-**Disclaimer: This application contains intentional security flaws and should only be run locally for educational purposes.**
 
 ## Features
 - Add tasks to an in-memory database.
 - Click tasks to visually strike them out and remove them from the server.
 - "Clear All Tasks" functionality to instantly reset the application state.
-- **Intentional Stored XSS Vulnerability**: Task inputs are completely unsanitized before being rendered to the DOM, allowing arbitrary JavaScript execution.
 - Separated modular structure with isolated HTML, CSS, and Client-side JS.
 
 ## Tech Stack
