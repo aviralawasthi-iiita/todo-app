@@ -35,4 +35,4 @@ This is a Todo web application.
 
 ## Demonstration Video
 
-[\[Google Drive Link to 10-Minute Video Here\]](https://drive.google.com/drive/folders/18QPZQMgE8muq6oY51tgjw3wQSI5dSoL4?usp=drive_link)
+[\[Google Drive Link to 10-Minute Video Here\]](https://drive.google.com/file/d/1U-rhBswlVKXR_E3vZOZLsfJCFrguLKhQ/view?usp=sharing)
