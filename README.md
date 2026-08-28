@@ -35,24 +35,6 @@ This is a deliberately vulnerable Todo web application built for an educational 
 
 4. Open your browser and navigate to `http://localhost:3000`.
 
-## XSS Demonstration Proof of Concepts
-
-To demonstrate the vulnerability, try adding any of the following payloads as a new task:
-
-**The Classic Alert Box:**
-```html
-<script>alert('Stored XSS execution successful!');</script>
-```
-
-**Page Defacement (DOM Manipulation):**
-```html
-<script>
-  document.body.style.background = 'red';
-  document.body.innerHTML = '<h1 style="color:white;text-align:center;margin-top:20vh;">This page has been taken over.</h1>';
-</script>
-```
-*(Note: If the page is completely defaced, you can reset the app by sending a POST request to `/clear-todos` or by restarting the node server.)*
-
 ## Demonstration Video
 
-[\[Insert Google Drive Link to 10-Minute Video Here\]](https://drive.google.com/drive/folders/18QPZQMgE8muq6oY51tgjw3wQSI5dSoL4?usp=drive_link)
+[\[Google Drive Link to 10-Minute Video Here\]](https://drive.google.com/drive/folders/18QPZQMgE8muq6oY51tgjw3wQSI5dSoL4?usp=drive_link)
